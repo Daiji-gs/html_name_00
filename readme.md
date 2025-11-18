@@ -5,7 +5,7 @@ CHEESE ACADEMY TOKYO JAPAN
 - チーズアカデミーの紹介、問い合わせのサイト
 
 ## ③アプリのデプロイURL
-- 
+- https://daiji-gs.github.io/html_name_00/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 - ID: 今回なし
