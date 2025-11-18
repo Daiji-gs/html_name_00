@@ -1,0 +1,657 @@
+.wrap {
+    max-width: 100vw;
+}
+
+
+.container_1 {
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: start;
+}
+
+.ロゴ_2 {
+  width: 600px;
+  text-align: left;
+  margin: auto 0;
+}
+
+.ロゴ_2 img{
+  width: 300px;
+  margin-left: 25px;
+}
+
+.menu_2{
+  width: 600px;
+  font-size: 21px;
+  margin:0 auto;
+  display: flex;
+  justify-content:space-around; 
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.about_3 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px 50px 50px 0px;
+}
+
+.course_3 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px 0px;
+}
+
+.news_3 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px 50px;
+}
+
+.access_3 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px 0px;
+}
+
+.contact_3 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px 50px;
+}
+
+.mainvisual {
+  position: relative; 
+}
+
+.img {
+  width: 1200px; 
+  margin:0 auto;
+}
+
+.img img {
+  width: 1200px; 
+  background-position: center; 
+  background-image: url(../img/mainbg.png);
+  background-size: contain;
+  background-repeat: no-repeat; /* 余白に画像を追加で貼らせない */
+}
+
+.h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.p1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 30px;
+  padding:0;
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.about_top {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(234, 147, 34);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about1 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about2 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about3 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 2rem;
+
+}
+
+.about4 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about5 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    line-height: 2rem
+}
+.photoes {
+  width: 1200px; 
+  margin:0 auto;
+}
+
+.photoes img {
+  width: 1200px; 
+  background-position: center; 
+  background-image: url(../img/about_images.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+.course {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.p2 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    line-height: 2rem;
+}
+
+.course_photo1 {
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: left;
+    background-color:#fafafa;
+}
+
+.course_photo1 img {
+    width: 600px;
+}
+
+.course_photo1_1 {
+    margin:auto 0;
+    width: 600px;
+}
+
+.cph1_1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black(234, 147, 34);
+    margin-left: 50px;
+}
+
+.cpp1_1 {
+    width: 430px;
+    font-size: 16px;
+    color: black(234, 147, 34);
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 2rem;
+}
+
+
+
+.course_photo2 {
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: right;
+    background-color:#fafafa;
+}
+
+.course_photo2 img {
+    width: 600px;
+}
+
+.course_photo2_1 {
+    margin:auto 0;
+    width: 600px;
+}
+
+.cph2_1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black(234, 147, 34);
+    margin-left: 120px;
+}
+
+.cpp2_1 {
+    width: 430px;
+    font-size: 16px;
+    color: black(234, 147, 34);
+    margin-top: 40px;
+    margin-left: 120px;
+    line-height: 2rem;
+
+
+}
+
+.course_photo3 {
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: left;
+    background-color: #fafafa;
+}
+
+.course_photo3 img {
+    width: 600px;
+}
+
+.course_photo3_1 {
+    margin:auto 0;
+    width: 600px;
+}
+
+.cph3_1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black(234, 147, 34);
+    margin-left: 50px;
+}
+
+.cpp3_1 {
+    width: 430px;
+    font-size: 16px;
+    color: black(234, 147, 34);
+    margin-top: 40px;
+    margin-left: 50px;
+    line-height: 2rem;
+}
+
+.news {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(234, 147, 34);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.news_p1 {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.news1 {
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+  margin:0 auto;
+}
+
+
+
+.news1_1_p1{
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.news1_1_p2{
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+  /* hoverを実装する */ 
+.news1_1 :hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
+.news1_2_p1{
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.news1_2_p2{
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+  /* hoverを実装する */ 
+.news1_2 :hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
+.news1_3_p1{
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.news1_3_p2{
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+  /* hoverを実装する */ 
+.news1_3 :hover{
+	opacity:0.5;
+	transition:0.3s;
+}
+
+.button-29 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin:0 auto;
+    padding: .9em 2em;
+    overflow: hidden;
+    border: 1px solid #ffd61a;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #cdd025;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.button-29:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.button-29::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    background-color: #ffd61a;
+    content: '';
+    transition: width .3s ease;
+}
+
+.button-29:hover::before {
+    width: 100%;
+}
+
+.access1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.access2 {
+ width: 1200px;
+ text-align: center;
+ background-color:#fafafa;
+}
+
+.access2 h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.access2 p {
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+
+.map {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.map1 {
+  width: 1200px;
+  height: 300px;
+}
+
+
+
+.school-info {
+  width: 1200px; /* 全体の横幅を調整 */
+  margin: 0 auto;
+  font-size: 16px;
+  padding-top: 30px;
+  background-color:#fafafa;
+}
+
+.info-row {
+  width: 1200px; /* 全体の横幅を調整 */
+  display: flex;
+  align-items: flex-start; /* 上揃え */
+  padding-bottom: 30px;     /* 各行の間隔（30px） */
+}
+
+.label {
+  display: inline-block;
+  margin-left: 400px; 
+  width: 100px;             /* 左側の固定幅（画像の指示通り） */
+}
+
+.value {
+  flex: 1;                 /* 右側を可変幅に */
+  margin-left: 60px;       /* ラベルと値の間隔（画像の60px） */
+  line-height: 1.5;
+}
+
+#contact {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contact_p1 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact_p2 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+}
+
+.contact_p3 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+.contact_p4 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+}
+
+.contact_p5 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 70px;
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- 規格値（画像どおり） --- */
+:root{
+  --label-col: 240px;     /* 左カラム幅 */
+  --field-col: 400px;     /* 右カラム幅 */
+  --col-gap: 64px;        /* カラムの間隔 */
+  --row-gap: 16px;        /* 行間 */
+  --input-w: 328px;       /* 入力の幅 */
+  --input-h: 36px;        /* 入力の高さ */
+  --border: #bfbfbf;      /* 枠色 */
+  --check-gap: 24px;      /* チェック→ラベルの間隔 */
+  --hint-indent: 16px;    /* 補足文のインデント */
+}
+
+.entry-form{
+  display: contents;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: var(--label-col) var(--field-col);
+  column-gap: var(--col-gap);
+  row-gap: var(--row-gap);
+  font-family: var(--font);
+  font-size: 14px;
+  color: #333;
+}
+
+/* 1行を2カラムで */
+.form-row{
+  display: contents; /* 各セルを親グリッドに直接置く */
+}
+.form-label{
+  align-self: start;
+  padding: 8px 0;
+  line-height: 1.6;
+}
+.form-field{
+  align-self: start;
+}
+
+/* 入力UIの共通サイズ */
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field select{
+  width: var(--input-w);
+  height: var(--input-h);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 0 10px;
+  line-height: calc(var(--input-h) - 2px);
+  background: #fff;
+  box-sizing: border-box;
+}
+.form-field textarea{
+  width: calc(var(--field-col) - 2px); /* テキストエリアは右カラムいっぱい */
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* 補足文（16pxインデント） */
+.hint{
+  margin: 6px 0 0 var(--hint-indent);
+  font-size: 12px;
+  color: #777;
+}
+
+/* チェックボックス（複数選択OK） */
+.checks{
+  display: grid;
+  grid-auto-rows: min-content;
+  row-gap: 10px;
+}
+.check{
+  display: inline-flex;
+  align-items: center;
+  gap: var(--check-gap); /* 24px */
+  line-height: 1.6;
+}
+.check input{
+  width: 18px;
+  height: 18px;
+}
+
+
+
+.button-30 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    margin:0 auto;
+    padding: .9em 2em;
+    overflow: hidden;
+    border: 1px solid #ffd61a;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #cdd025;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.button-30:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.button-30::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    background-color: #ffd61a;
+    content: '';
+    transition: width .3s ease;
+}
+
+.button-30:hover::before {
+    width: 100%;
+}
+
+
+
+#footer {
+  width: 1200px;
+  background-color: #707070;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
